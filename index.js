@@ -1,7 +1,6 @@
 
 const express = require("express");
 const app=express();
-const EmpleadoRoutes=require('./router/empleadoRouter');
 const usuario=require('./router/usuario');
 const eventos=require('./router/eventos');
 const PORT=4002;
